@@ -2,9 +2,11 @@
   "name": "test-loger",
   "version": "1.0.0",
   "description": "Testowy loger w ramach nauki JS-a z ksiązki javascript programowanie zaawansowane",
-  "main": "index.js",
+  "main": "bundle.js",
+  "jsnext:main": "index2.js",
   "scripts": {
-    "lint": "eslint **/*js"
+    "lint": "eslint **/*js",
+    "rollup": "rollup -c"
   },
   "keywords": [
     "logger"
@@ -12,7 +14,10 @@
   "author": "Michał Hoffmann",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^4.1.1"
+    "eslint": "^4.1.1",
+    "rollup": "^0.45.2",
+    "rollup-plugin-commonjs": "^8.0.2",
+    "rollup-plugin-node-resolve": "^3.0.0"
   },
   "dependencies": {
     "chalk": "^2.0.1"
