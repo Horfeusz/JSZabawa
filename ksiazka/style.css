@@ -1,0 +1,39 @@
+body {
+    background-color: mediumaquamarine;
+}
+
+#myDiv {
+    text-shadow: 2px 2px aqua;
+    font-family: "Verdana", Times, serif;
+}
+
+
+.person-bio {
+    width: 400px;
+    margin: 0 auto;
+    background: #326;
+    border-radius: 3px;
+    color: #fff;
+    overflow: hidden;
+    padding: 10px;
+    font-family: "Verdana", Times, serif;
+}
+.person-bio__name {
+    font-family: "Verdana", Times, serif;
+    margin: 0;
+    font-size: 20px;
+    line-height: 1.8;
+    clear: both;
+}
+.person-bio__image {
+    float: left;
+    margin-right: 20px;
+}
+.person-bio__image_oval {
+    border-radius: 60px;
+}
+.person-bio__content {
+    font-family: "Verdana", Times, serif;
+    text-align: justify;
+    padding-left: 120px;
+}

@@ -1,0 +1,31 @@
+<html>
+<link rel='stylesheet' href="style.css" />
+<script>
+    var test = function () {
+        var link = document.createElement('a');
+        link.href = 'http://wp.pl';
+        link.innerHTML = "przejście na WP";
+        document.body.appendChild(link);
+    }
+
+</script>
+
+<body>
+    <h1 id="myDiv">Zobaczymy co się stanie </h1>
+    <script>
+        test();
+    </script>
+
+
+    <article class="person-bio">
+        <h2 class="person-bio__name">Comandeer</h2>
+        <img width="200px" src="https://www.partybox.pl/zasoby/images/middle/sc473-yoda.jpg" alt="" class="person-bio__image person-bio__image_oval">
+        <div class="person-bio__content">
+            <p>Jestem obłąkanym piewcą standardów internetowych, który całe swe życie poświęca krzewieniu dobrych praktyk webdeveloperskich.
+                Oddycham HTML-em, mówię CSS-em i myślę JS-em.</p>
+        </div>
+    </article>
+
+</body>
+
+</html>

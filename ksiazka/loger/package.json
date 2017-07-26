@@ -1,0 +1,20 @@
+{
+  "name": "test-loger",
+  "version": "1.0.0",
+  "description": "Testowy loger w ramach nauki JS-a z ksiązki javascript programowanie zaawansowane",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint **/*js"
+  },
+  "keywords": [
+    "logger"
+  ],
+  "author": "Michał Hoffmann",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.1.1"
+  },
+  "dependencies": {
+    "chalk": "^2.0.1"
+  }
+}
